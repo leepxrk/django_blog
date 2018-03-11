@@ -75,26 +75,26 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 
 
 # 默认连接
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 
 
 # 连接mysql
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_blog',
-        'USER': 'rock',
-        'PASSWORD': 'qq19900807lrk?',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
-}
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'django_blog',
+#        'USER': 'rock',
+#        'PASSWORD': 'qq19900807lrk?',
+#        'HOST': '127.0.0.1',
+#        'PORT': '3306',
+#    }
+#}
 
 
 
